@@ -31,6 +31,7 @@ body {
     align-items: center;
     border-bottom: 2px solid var(--theme-green-blue-2);
     padding: 0 5vw;
+    position: sticky;
 }
 
 .brand-title {
@@ -100,4 +101,31 @@ body {
     background-color: var(--theme-orange);
     color: var(--theme-green-blue-2);
     ;
+}
+
+.hero {
+    background-image: url(Assets/trek.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.cta {
+    border: 1px solid white;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0 10vw 0 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,50,50,0) 100%);  
+    color: white;
+}
+
+.login-signup-form{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
 }
