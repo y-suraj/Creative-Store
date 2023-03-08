@@ -104,14 +104,19 @@ body {
 }
 
 .hero {
-    background-image: url(Assets/trek.jpg);
+    background-image: url(Assets/hero-img.png);
     background-size: cover;
     height: 100vh;
+}
+
+.frame{
     display: flex;
+    background-color: rgba(0,0,0,.19);
+    height: 100vh;
 }
 
 .cta {
-    border: 1px solid white;
+    border: 1px solid white;/*temp*/
     width: 50%;
     height: 100%;
     margin: 0;
@@ -119,7 +124,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,50,50,0) 100%);  
     color: white;
 }
